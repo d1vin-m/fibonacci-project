@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    font-family: poppins, sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+.navbar img{
+    height: 130px;
+    width: 130px;
+    position: relative;
+    left: 5rem;
+}
+.navbar .links{
+    display: flex;
+    width: 57rem;
+    justify-content: end;
+    align-items: center;
+}
+.links li{
+    list-style: none;   
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    font-size: 17px;
+    transition: 0.2s ease-in-out;
+}
+#active{
+    color: #FF6679;
+}
+.links a:hover{
+    color: #FF6679;
+}
+.sign{
+    width: 25rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+}
+.us{
+    border: 2px solid rgb(202, 195, 195);
+    padding: 10px;
+    width: 5.6rem;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.btn{
+    padding: 8px;
+    width: 10rem;
+    background: linear-gradient(to bottom right, #F99EBA, #FF6FC4, #FF6679);
+    border: none;
+    font-size: 14px;
+    outline: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 10px 5px #c7c3c35f;
+}
+.btn a{
+    color: black;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 7px;
+    background: white;
+}
+.menu{
+    display: none;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    width: 40%;
+    position: relative;
+    right: 40px;
+    height: 400px;
+}
+.text h1{
+    font-size: 60px;
+}
+.text h1 span{
+    color: #fa60ba;
+}
+.text p{
+    color: #8a8484;
+    position: relative;
+    top: 20px;
+    line-height: 24px;
+}
+.text input{
+    margin-top: 50px;
+    padding: 15px;
+    width: 20rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgba(219, 216, 216, 0.371);
+}
+.text input::placeholder{
+    color: black;
+    font-size: 16px;
+}
+.signup{
+    display: flex;
+    align-items: center;
+}
+.signup button{
+    margin-top: 50px;
+    margin-left: 10px; 
+}
+.c2{
+    width: 40%;
+    height: 440px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #fff6;
+}
+.c2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.container{
+    margin-top: 60px;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    color: #fa60ba;
+}
+.contain{
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 50px;
+}
+.card-box{
+    height: 300px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.box{
+    width: 50%;
+    border-radius: 20px;
+    padding: 25px;
+}
+.box h3{
+    margin-top: 30px;
+    font-size: 22px;
+}
+.box p{
+    margin-top: 35px;
+}
+.card{
+    height: 180px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #F9F6FE;
+}
+.logo{
+    border: 1px solid;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 50px;
+    border-radius: 50%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.buttonn{
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.butn{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid #E8E8E8;
+    font-weight: 600;
+}
+.two{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.paragra{
+    margin-left: 10px;
+}
+.paragra h4{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.paragra h6{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 4px;
+    color: #686868;
+}
+.two button{
+    margin-left: 100px;
+    width: 60px;
+    padding: 10px;
+    background: linear-gradient(to bottom right, #F99EBA, #FF6FC4, #FF6679);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px #c7c3c35f;
+    cursor: pointer;
+}
+.about{
+    display: flex;
+    gap: 60px;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+    width: 82%;
+}
+.image{
+    height: 430px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    background: #FEF4E3;
+    border-radius: 20px;
+}
+.image img{
+    height: 380px;
+}
+.about-us{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.about-us h1 span{
+    color: #fa60ba;
+    font-size: 35px;
+}
+.about-box{
+    margin-top: 20px;
+    background: #FAFAFA;
+    padding: 20px;
+    width: 800px;
+    border-radius: 20px;
+}
+.about-box h3{
+    margin-top: 130px;
+    font-size: 40px;
+}
+.about-box p{
+    margin-top: 16px;
+    font-size: 17px;
+}
+.music-content{
+    height: 90%;
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+}
+.music-heading h1{
+    color: teal;
+}
+.t h4{
+    color: teal;
+}
+.box-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-content:nth-child(1){
+    border-right: 1px solid black;
+}
+.box-content:nth-child(2){
+    border-left: 1px solid black;
+}
+.box-content .card{
+    margin-top: 30px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #d3d0d0;
+    width: 70%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.card-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.card-image img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.des h1{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.des p{
+    font-size: 14px;
+}
+.btn button{
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: teal;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+}
+
+@media only screen and (max-width:1200px){
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+    .navbar img{
+        margin-left: -50px;
+    }
+    .navbar ul li a{
+        cursor: pointer;
+    }
+    .menu{
+        display: block;
+        margin-right: 30px;
+        position: absolute;
+        right: 20px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .navbar .links{
+        padding: 4px;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        display: none;
+        visibility: hidden;
+        border-radius: 20px;
+        background: white;
+        box-shadow: 0 0 10px 5px #c7c3c35f;
+        top: 100px;
+        position: absolute;
+        right: 20px;
+        width: 20rem;
+        transition: all 0.5s ease-in-out;
+    }
+    .navbar .links.show{
+        display: flex;
+        visibility: visible;
+        transition: all 0.5s ease-in-out;
+    }
+    .sign{
+        display: flex;
+        position: absolute;
+        right: -100px;
+        justify-content: left;
+    }
+    .content.expand{
+        margin-top: 200px;
+        z-index: 100;
+    }
+    .content{
+        gap: 10px;
+    }
+    .c1{
+        width: 60%;
+        padding-left: 30px;
+        margin-left: 20px;
+        height: auto;
+    }
+    .text h1{
+        font-size: 35px;
+    }
+    .text p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: -10px;
+    }
+    .c2{
+        height: 200px;
+        width: 200px;
+        z-index: 1000;
+    }
+}
+@media only screen and (max-width:640px){
+    .c1{
+        width: 85%;
+        margin-left: 60px;
+    }
+    .sign{
+        display: none;
+    }
+    .c2{
+        display: none;
+    }
+}

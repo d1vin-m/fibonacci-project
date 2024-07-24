@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: popins, sans-serif;
+    background: beige;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    width: 50%;
+    height: 100vh;
+}
+.logo{
+    position: relative;
+    top: 50%;
+    transform: translate(25%,-50%);
+}
+.logo img{
+    height: 300px;
+    width: 300px;
+}
+
+/* login */
+.o{
+    width: 50%;
+}
+.wrapper{
+    background: transparent;
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    width: 420px;
+    padding: 30px 40px;
+    margin-left: 11%;
+}
+.wrapper h2{
+    text-align: center;
+    font-size: 36px;
+}
+.wrapper .input-box{
+    margin-top: 20px;
+}
+.wrapper .input-box p{
+    font-size: 18px;
+    color: rgb(247, 80, 113);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.wrapper .input-box input{
+    background: transparent;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid rgb(247, 80, 113);
+    outline: none;
+    padding: 20px 40px 20px 20px;
+    font-size: 17px;
+}
+.wrapper .input-box input::placeholder{
+    font-size: 17px;
+}
+.wrapper .remember-me{
+    display: block;
+    margin: 15px 0 0px;
+}
+.remember-me p{
+    font-size: 18px;
+    color: rgb(247, 80, 113)l;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.remember-me label input{
+    accent-color: black;
+    margin-left: 20px;
+}
+.remember-me a{
+    color: black;
+    text-decoration: none;
+}
+.remember-me a:hover{
+    text-decoration: underline;
+}
+
+.wrapper button{
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    color: rgb(247, 80, 113);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.wrapper button:hover{
+    background-color: rgb(247, 80, 113);
+    color: white;
+}
+
+.wrapper .register{
+    text-align: center;
+    margin: 20px 0 15px;
+    font-size: 15px;
+}
+.register a{
+    color: rgb(247, 80, 113);
+    font-weight: 600;
+    text-decoration: none;
+}
+.register a:hover{
+    text-decoration: underline;
+}
+.message{
+    text-align: center;
+    background: transparent;
+    border-radius: 20px;
+    padding: 20px 35px;
+}
